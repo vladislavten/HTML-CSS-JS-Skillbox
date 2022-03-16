@@ -1,0 +1,41 @@
+body {
+    margin: 50px;
+    
+}
+
+.cart {
+    position: relative;
+    display: inline-block;
+
+    
+
+
+}
+
+.block2 {
+    position: absolute;
+    display: inline-block;
+    top: -5px;
+    right: -10px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.size{
+    width: 50px;
+}
+
+.size2{
+    width: 30px;
+}
