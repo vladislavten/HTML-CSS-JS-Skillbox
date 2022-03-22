@@ -26,6 +26,29 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 }
 
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #333;
+  margin: 0px 0px 40px 0px;
+  width: 872px;
+}
+p:last-child {
+  margin: 0px 0px 40px 0px;
+  width: 872px;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -71,29 +94,6 @@ body {
   margin: 0 auto;
   padding: 80px 0;
   width: 1170px;
-}
-
-h1 {
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
-  color: #333;
-  margin-bottom: 40px;
-  margin-top: 0px;
-}
-
-
-p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  color: #333;
-  margin: 0px 0px 40px 0px;
-  width: 872px;
-}
-p:last-child {
-  margin: 0px 0px 40px 0px;
-  width: 872px;
 }
 
 
