@@ -1,30 +1,30 @@
     html {
         box-sizing: border-box;
     }
-    
+
     *,
     *::before,
     *::after {
         box-sizing: inherit;
     }
-    
+
     a {
         color: inherit;
         text-decoration: none;
     }
-    
+
      ::marker {
         color: blue;
     }
-    
+
     img {
         max-width: 100%;
     }
-    
+
     body {
         font-family: Arial, Verdana, sans-serif;
     }
-    
+
     h1 {
         font-weight: 400;
         font-size: 60px;
@@ -33,14 +33,14 @@
         margin-bottom: 40px;
         margin-top: 0px;
     }
-    
+
     h2 {
         margin: 0px 0px 10px 0px;
         font-size: 40px;
         line-height: 46px;
         color: #333;
     }
-    
+
     h3 {
         margin: 0px 0px 10px 0px;
         font-weight: 400;
@@ -48,18 +48,18 @@
         line-height: 34px;
         color: #333;
     }
-    
+
     ul {
         padding-left: 15px;
     }
-    
+
     ul a {
         font-size: 20px;
         color: #3f2aff;
         border-bottom-width: 1px;
         border-bottom-style: solid;
     }
-    
+
     p {
         font-size: 20px;
         font-weight: 400;
@@ -68,12 +68,12 @@
         margin: 0px 0px 40px 0px;
         width: 872px;
     }
-    
+
     p:last-child {
         margin: 0px 0px 40px 0px;
         width: 872px;
     }
-    
+
     .main-content {
         display: flex;
         flex-direction: column;
@@ -83,12 +83,12 @@
         color: #fff;
         background-color: #070217;
     }
-    
+
     .margin_bottom {
         display: inline-block;
         margin-bottom: 50px;
     }
-    
+
     .main_block {
         display: inline-block;
         padding: 24px 49px;
@@ -96,7 +96,7 @@
         font-size: 18px;
         background-color: #3f2aff;
     }
-    
+
     .download_link {
         padding-left: 25px;
         font-weight: 700;
@@ -107,28 +107,28 @@
         background-size: 20px 20px;
         background-repeat: no-repeat;
     }
-    
+
     .main_block:not(:last-child) {
         margin-right: 25px;
     }
-    
+
     .logo {
         display: block;
         margin-bottom: 25px;
     }
-    
+
     .container {
         margin: 0 auto;
         padding: 80px 0;
         width: 1170px;
     }
-    
+
     .m_container {
         margin: 0 auto;
         padding: 50px 0;
         width: 1170px;
     }
-    
+
     .ramka {
         border-radius: 20px;
         padding: 30px;
@@ -137,34 +137,34 @@
         background-position: right;
         background-repeat: no-repeat;
     }
-    
+
     .ramka p {
         margin-bottom: 10px;
         width: 692px;
         margin: 0px;
     }
-    
+
     .ramka:last-child {
         margin-bottom: 0px;
     }
-    
+
     .right_background {
         background-image: url("../img/decorate-1.png");
     }
-    
+
     .right_background2 {
         background-image: url("../img/decorate-2.png");
     }
-    
+
     li:not(:last-child) {
         width: 692px;
         margin-bottom: 20px;
     }
-    
+
     .image_bottom {
         margin-bottom: 40px;
     }
-    
+
     figure {
         margin: 0px;
         display: inline-block;
@@ -172,7 +172,7 @@
         width: 872px;
         font-size: 0;
     }
-    
+
     figcaption {
         border-color: #b6b6b6;
         border: 1px;
@@ -183,7 +183,7 @@
         font-weight: 400;
         text-align: center;
     }
-    
+
     .die p {
         margin: 0px;
         margin-bottom: 40px;
@@ -195,7 +195,7 @@
         color: #fff;
         background-color: #3f2aff;
     }
-    
+
     .to_back {
         padding-left: 52px;
         font-size: 20px;
@@ -204,7 +204,7 @@
         background-position: left center;
         background-repeat: no-repeat;
     }
-    
+
     .title {
         margin-bottom: 50px;
         font-family: Arial, Helvetica, sans-serif;
@@ -215,53 +215,75 @@
         width: 1170px;
         height: 69px;
     }
-    
-    .content {
-        margin: 0px;
-        margin-right: 25px;
-        margin-bottom: 25px;
-        display: inline-block;
-        width: 572px;
-        height: 505px;
-        filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
-        background-color: #fff;
-    }
-    
+
     .content:last-child {
         margin-right: 0px;
         margin-bottom: 0px;
     }
-    
-    .wrap {
-        display: flex;
-        flex-wrap: wrap
+
+    .table {
+      padding: 0px;
+      display: flex;
+      flex-wrap: wrap
     }
-    
+
     .sub_content {
         position: relative;
-        width: 572px;
-        height: 325px;
-        padding: 25px;
+        list-style-type: none;
+        display: inline-block;
+        width: 572px !important;
+        /* padding: 25px; */
+        height: 505px;
+        margin: 0px;
+        margin-right: 25px;
+        margin-bottom: 25px !important;
+        filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+        background-color: #fff;
     }
-    
+
+    .sub_content2 {
+        position: relative;
+        list-style-type: none;
+        display: inline-block;
+        /* padding: 25px; */
+        width: 572px !important;
+        height: 505px;
+        margin: 0px;
+        filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+        background-color: #fff;
+
+    }
+
     .sub_title {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         font-weight: 700;
         line-height: 46px;
+        padding-left: 25px;
+        padding-top: 25px;
         color: blue;
         margin-bottom: 0px;
     }
-    
+
     .sub_content p {
         width: 522px;
+        padding-left: 25px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         line-height: 33px;
         font-weight: 400;
         margin: 0px;
     }
-    
+    .sub_content2 p {
+        width: 522px;
+        padding-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 33px;
+        font-weight: 400;
+        margin: 0px;
+    }
+
     span {
         position: absolute;
         right: 25px;
@@ -270,7 +292,7 @@
         font-weight: 400;
         color: #EAEAEA;
     }
-    
+
     .botton_btn {
         margin: 0px auto;
         margin-top: 25px;
